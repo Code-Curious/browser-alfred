@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "Browser Alfred: extension/tab/history",
+    "short_name": "Alfred",
+    "version": "1.0.0",
+    "description": "Easy Extensions / Tabs / History / Translation / Pocket",
+    "default_locale": "en",
+    "background": {
+        "page": "bg.html"
+    },
+    "browser_action": {
+        "default_icon": "img/icon.png",
+        "default_title": "Alfred",
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "img/icon16.png"
+    },
+    "web_accessible_resources": [
+        "img/*",
+        "urlblock.html",
+        "login.html"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "options_page": "options.html",
+    "optional_permissions": [
+        "background", "clipboardRead", "clipboardWrite"
+    ],
+    "permissions": [
+        "history",
+        "bookmarks",
+        "tabs",
+        "storage",
+        "downloads",
+        "contextMenus",
+        "management",
+        "notifications",
+        "<all_urls>"
+    ]
+}
