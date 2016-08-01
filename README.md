@@ -7,11 +7,6 @@ Easy Extensions / Tabs / History / Translation etc.
 
 ---
 ## Update
-### 2.1.7
-optimize urlblock
-
-### 2.1.6
-add help command
 
 ---
 ## Useage
@@ -29,4 +24,3 @@ add help command
 
 ---
 ## TODOS
-nothing
