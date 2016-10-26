@@ -7,6 +7,7 @@ Easy Extensions / Tabs / History / Translation etc.
 
 ---
 ## Update
+v1.0.1 修复有道翻译的Bug
 
 ---
 ## Useage
