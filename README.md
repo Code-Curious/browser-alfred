@@ -1,4 +1,4 @@
-<h1 align="center">Broswer Alfred</h1>
+<h1 align="center">Browser Alfred</h1>
 <p align="center">Chrome里的Alfred，命令式管理扩展/应用/书签/历史记录/标签...</p>
 <p align="center">
    <a href="https://github.com/solobat/browser-alfred/releases"><img src="https://img.shields.io/badge/lastest_version-1.0.3-blue.svg"></a>
