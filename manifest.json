@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Browser Alfred: extension/tab/history",
     "short_name": "Alfred",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Easy Extensions / Tabs / History / Translation / Pocket",
     "default_locale": "en",
     "background": {
@@ -37,5 +37,15 @@
         "management",
         "notifications",
         "<all_urls>"
-    ]
+    ],
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Ctrl+K",
+                "mac": "Command+K",
+                "chromeos": "Ctrl+K",
+                "linux": "Ctrl+K"
+            }
+        }
+    }
 }
