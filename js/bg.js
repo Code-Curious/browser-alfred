@@ -34,7 +34,7 @@ function getAllTabs(callback) {
 
 function refreshTodo() {
     getTodos(function (todos) {
-        if (!todos || !todos.length) {
+        if (!todos || todos.length === 0) {
             return;
         }
         getAllTabs(function (tabs) {
@@ -46,9 +46,11 @@ function refreshTodo() {
                     return;
                 }
 
-                chrome.tabs.executeScript(tab.id, {
-                    code: 'document.title = "' + todo.title + '"'
-                });
+                if (todo.title) {
+                    chrome.tabs.executeScript(tab.id, {
+                        code: 'document.title = "' + todo.title + '"'
+                    });
+                }
             }
         });
     });
